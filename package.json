@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "npx tsc -p tsconfig.json && npx rimraf src",
-    "postinstall": "npm run build",
+    "postinstall": "pnpm run build",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc",
     "prepublish": "pnpm build"
