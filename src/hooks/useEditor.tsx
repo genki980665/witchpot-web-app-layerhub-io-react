@@ -1,3 +1,5 @@
+'use client'
+
 import React from "react";
 import { Context } from "../context";
 import { Editor } from "@layerhub-io/core";
