@@ -1,5 +1,3 @@
-'use client'
-
 import * as React from "react"
 import { Editor } from "@layerhub-io/core"
 import { Context } from "./context"
